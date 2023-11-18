@@ -1,4 +1,13 @@
-/** Add your relevant code here for the issue to reproduce */
+import Link from "next/link";
+
 export default function Home() {
-  return null
+  return (
+    <>
+      <div className="main">
+        <Link href="https://tktk">💞 like bomb bookmarklet 💞</Link>
+        <Link href="https://tktk">🙈 show all bookmarklet 🙈</Link>
+        <Link href="https://tktk">me</Link>
+      </div>
+    </>
+  );
 }
