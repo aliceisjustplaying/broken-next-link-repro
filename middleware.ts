@@ -13,7 +13,7 @@ export const getValidSubdomain = (host?: string | null) => {
     if (
       candidate &&
       !candidate.includes("localhost") &&
-      !candidate.includes("bsky")
+      !candidate.includes("paperclip")
     ) {
       // Valid candidate
       subdomain = candidate;
