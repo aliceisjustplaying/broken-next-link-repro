@@ -4,13 +4,9 @@ export default function Home() {
   return (
     <>
       <div className="main">
-        <Link href="https://broken-next-link-repro.vercel.app/page1">
-          Page 1
-        </Link>
+        <Link href="https://page1.paperclip.monster">Page 1</Link>
         <br />
-        <Link href="https://broken-next-link-repro.vercel.app/page2">
-          Page 2
-        </Link>
+        <Link href="https://page2.paperclip.monster">Page 2</Link>
         <br />
       </div>
     </>
